@@ -1,1 +1,0 @@
-web gunicorn fox.wsgi:application --log-file-
