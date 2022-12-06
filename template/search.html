@@ -10,17 +10,20 @@
 }
 
 #topbar {
+  
     display: flex;
-    height: 64px;
+    height: 80px;
     width: 100%;
     align-items: flex-end;
     position: fixed;
     background-color: white;
 }
 
+
+
 #searchbarimage {
-    height: 30px;
-    padding: 0px 28px 10px 30px;
+    height: auto;
+    width: 150px;
     cursor: pointer;
 }
 
@@ -61,8 +64,8 @@ html, body {
 }
 
 #searchbar {
-        left:70px;
-        top:20px;
+       
+        top:7px;
     width: 625px;
     height: 45px;
     border-radius: 100px;
@@ -441,7 +444,7 @@ html, body {
     </div> -->
     <div id="header">
         <div id="topbar">
-            <img id="searchbarimage" src="images/googlelogo_color_92x30dp.png" />
+            <img id="searchbarimage" src="https://i.imgur.com/25d1yVh.png" width="100px" />
     <form method="POST" action="search">
     {% csrf_token %}
     <!-- <input class="search-bar" type="text" name="search" autofocus x-webkit-speech/>
